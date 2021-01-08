@@ -1,0 +1,32 @@
+#h{
+	text-align: center;
+	color: blue;
+	font-size: 50px;
+	
+}
+div{
+	background-color: yellow;
+	text-align: right;
+	margin-top:50px;
+	padding: 15px;
+}
+a{
+	color: black;
+	padding: 3px;
+}
+.tb1, td, th{
+	border: 2px solid black;
+	border-collapse:collapse;
+	background-color:gray;
+	margin-top:50px;
+	padding:30px;
+	margin-left:50px;
+}
+td,th{
+	text-align:left;
+	color:white;
+}
+.btn{
+		margin-top:20px;
+		margin-left:150px;
+}

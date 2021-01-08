@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>Java script</title>
+	<style>
+		#container {
+			background-color: chocolate;
+			color: white;
+		}
+
+		.container2 {
+			background-color: yellow;
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<p id="demo">A paragraph</p>
+	<div id="container" onclick="func()">
+		<h1>This is a container 1</h1>
+	</div>
+	<div class="container2">
+		<h1>This is a container 2</h1>
+	</div>
+	<button type="button" onclick="myFunction()">click here</button>
+	<script src="script2.js" ></script> 
+	<script>
+		document.getElementById("demo").innerHTML = "Heloo";
+		function func() {
+			var d = new Date()
+			document.getElementById("container").innerHTML = d.getDate()
+		}
+
+
+	</script>
+</body>
+
+</html>
